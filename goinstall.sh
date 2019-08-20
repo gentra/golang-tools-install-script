@@ -106,4 +106,4 @@ echo -e "\n\tsource $HOME/.${shell_profile}\n\nto update your environment variab
 echo "Tip: Opening a new terminal window usually just works. :)"
 rm -f /tmp/go.tar.gz
 
-source $HOME/.&{shell_profile}
+source $HOME/.${shell_profile}
